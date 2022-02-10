@@ -1,11 +1,11 @@
 <template>
   <div class="login">
-    <form>
+    <form >
     Användarnamn:<br>
-    <input class='input' type=text><br>
+    <input class='input' style='margin-bottom:5px;' type=text><br>
     Lösenord:<br>
     <input class='input' type=password><br>
-<br>
+    <br>
     <input class=button  type=submit value="Logga in">
     </form>
   </div>
