@@ -30,7 +30,7 @@ export default {
       axios.post('http://192.168.68.107:8000/checklogin', this.formdata)
       .then(res=>{
         if (res.data.length != 0){
-          document.location ="/about";
+          document.location ="/loggedin";
         } else {
           alert("wrong username");
         }
