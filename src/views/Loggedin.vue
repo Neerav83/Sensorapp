@@ -1,6 +1,6 @@
 <template>
   <div class="loggedin">
-    <h1>Logged in!!</h1>
+    <h1>Inloggad!!</h1>
   </div>
 </template>
 
