@@ -1,6 +1,5 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
     Login:
   </div>
 </template>
@@ -9,7 +8,6 @@
 export default {
   name: 'Login',
   props: {
-    msg: String
   }
 }
 </script>
