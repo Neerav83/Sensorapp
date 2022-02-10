@@ -1,6 +1,6 @@
 <template>
   <div id="nav">
-   
+     PlantSensor   
   </div>
   <router-view />
 </template>
@@ -15,7 +15,14 @@
 }
 
 #nav {
-  padding: 30px;
+  padding: 15px;
+  width:calc(100% - 30px);
+  height:35px;
+  background-color:green;
+  text-align: center;
+  position: fixed;
+  top:0;
+  left:0;
 }
 
 #nav a {
