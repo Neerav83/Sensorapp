@@ -6,7 +6,7 @@
     <input class='input' type=text><br>
     Lösenord:<br>
     <input class='input' type=password><br>
-
+<br>
     <input class=button  type=submit value="Logga in">
     </form>
   </div>
