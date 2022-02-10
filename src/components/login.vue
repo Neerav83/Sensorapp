@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div class="login">
     Login!<br>
     <form>
     <input type=submit value="Logga in">

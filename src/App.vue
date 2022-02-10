@@ -45,6 +45,10 @@
   width:calc(100% - 30px);
   text-align: center;
 }
+
+.login{
+  padding-top:150px;
+}
 /* <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
 */
