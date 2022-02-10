@@ -39,7 +39,7 @@
 
 .home {
   position: fixed;
-  top: 30;
+  top: 35;
   left:0;
   padding:15px;
   width:calc(100% - 30px);
