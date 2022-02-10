@@ -29,7 +29,13 @@ export default {
 
       axios.post('http://192.168.68.107:8000/checklogin', this.formdata)
       .then(res=>{
-        console.log(res);
+        if (res.data.length != 0){
+          document.location ="/about";
+        } else {
+          alert("wrong username");
+        }
+        //console.log(res);
+
       })
       .catch (err => {
         console.log(err)
