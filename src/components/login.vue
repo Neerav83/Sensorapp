@@ -31,7 +31,9 @@ export default {
       .then(res=>{
         if (res.data.length != 0){
           this.$router.push('/loggedin');
-       //   document.location ="/loggedin";
+
+            
+
         } else {
           alert("wrong username");
         }
