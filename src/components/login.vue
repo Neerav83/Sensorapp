@@ -2,6 +2,11 @@
   <div class="login">
     Logga in:<br>
     <form>
+    Användarnamn:<br>
+    <input class='input' type=text><br><br>
+    Lösenord:<br>
+    <input class='input' type=password><br>
+
     <input class=button  type=submit value="Logga in">
     </form>
   </div>
@@ -28,7 +33,10 @@ li {
   display: inline-block;
   margin: 0 10px;
 }
-a {
+.input {
+  padding:5px;
+  width:75%;
+  height:25px;
   color: #42b983;
 }
 
