@@ -15,7 +15,7 @@
 import axios from 'axios'
 import VueSession from 'vue-session'
 
-Vue.use(VueSession)
+this.use(VueSession)
 
 
 export default {
