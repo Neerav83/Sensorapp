@@ -9,7 +9,7 @@
 
 <script>
 export default {
-  name: 'Login',
+  name: 'Main',
   props: {
   }
 }
