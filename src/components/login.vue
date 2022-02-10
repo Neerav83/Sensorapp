@@ -1,6 +1,6 @@
 <template>
   <div class="login">
-    <form >
+    <form method=post action='/about'>
     Användarnamn:<br>
     <input class='input' style='margin-bottom:15px;' type=text><br>
     Lösenord:<br>
