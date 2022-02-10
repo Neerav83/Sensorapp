@@ -14,8 +14,6 @@
 <script>
 import axios from 'axios'
 
-Vue.use(VueSession)
-
 export default {
   name: 'Postformdata',
   data () {
