@@ -18,6 +18,8 @@
   padding: 15px;
   width:calc(100% - 30px);
   height:35px;
+  font-size:18px;
+  color:white;
   background-color:green;
   text-align: center;
   position: fixed;
