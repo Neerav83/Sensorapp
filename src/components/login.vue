@@ -13,7 +13,6 @@
 
 <script>
 import axios from 'axios'
-import VueSession from 'vue-session'
 
 
 
