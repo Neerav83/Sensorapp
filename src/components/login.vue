@@ -42,7 +42,7 @@ a {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  width:150px;
+  width:75%;
   height: 25px;
 }
 </style>
