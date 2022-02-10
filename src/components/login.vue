@@ -2,7 +2,7 @@
   <div class="login">
     <form >
     Användarnamn:<br>
-    <input class='input' style='margin-bottom:5px;' type=text><br>
+    <input class='input' style='margin-bottom:15px;' type=text><br>
     Lösenord:<br>
     <input class='input' type=password><br>
     <br>
