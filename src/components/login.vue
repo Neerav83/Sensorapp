@@ -13,7 +13,7 @@
 
 <script>
 import axios from 'axios'
-
+this.$session.start();
 export default {
   name: 'Postformdata',
   data () {
