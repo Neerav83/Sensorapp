@@ -1,6 +1,5 @@
 <template>
   <div class="login">
-    Logga in:<br>
     <form>
     Användarnamn:<br>
     <input class='input' type=text><br>
