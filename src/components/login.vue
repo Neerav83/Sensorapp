@@ -13,6 +13,10 @@
 
 <script>
 import axios from 'axios'
+import VueSession from 'vue-session'
+
+Vue.use(VueSession)
+
 
 export default {
   name: 'Postformdata',
