@@ -48,6 +48,8 @@
 
 .login{
   padding-top:150px;
+  font-size:18px;
+  
 }
 /* <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
