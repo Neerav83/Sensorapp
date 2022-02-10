@@ -17,7 +17,7 @@
 #nav {
   padding: 15px;
   width:calc(100% - 30px);
-  height:30px;
+  height:27px;
   font-size:23px;
   color:white;
   background-color:green;
