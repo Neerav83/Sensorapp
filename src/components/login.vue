@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    Login:<br>
+    Login!<br>
     <form>
     <input type=submit value="Logga in">
     </form>
