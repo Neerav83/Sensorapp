@@ -2,7 +2,7 @@
   <div class="login">
     Logga in:<br>
     <form>
-    <input style='width:150px; height:25px;' type=submit value="Logga in">
+    <input class=button  type=submit value="Logga in">
     </form>
   </div>
 </template>
@@ -30,5 +30,19 @@ li {
 }
 a {
   color: #42b983;
+}
+
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width:150px;
+  height: 25px;
 }
 </style>
