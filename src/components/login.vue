@@ -51,6 +51,6 @@ li {
   display: inline-block;
   font-size: 16px;
   width:75%;
-  height: 25px;
+  height: 35px;
 }
 </style>
