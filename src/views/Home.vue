@@ -12,7 +12,7 @@ import Main from '@/components/login.vue'
 export default {
   name: 'Home',
   components: {
-    Main:Main
+    Main
   }
 }
 </script>
