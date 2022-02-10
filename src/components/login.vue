@@ -1,10 +1,10 @@
 <template>
   <div class="login">
-    <form method=post action='/about'>
+    <form @submit.prevent="submitform">
     Användarnamn:<br>
-    <input class='input' style='margin-bottom:15px;' type=text><br>
+    <input class='input' v-model="formdata.name" style='margin-bottom:15px;' type=text><br>
     Lösenord:<br>
-    <input class='input' type=password><br>
+    <input class='input' v-model="formdata.password" type=password><br>
     <br>
     <input class=button  type=submit value="Logga in">
     </form>
@@ -12,11 +12,37 @@
 </template>
 
 <script>
+import axios from 'axios'
+
 export default {
-  name: 'Main',
-  props: {
+  name: 'Postformdata',
+  data () {
+    return {
+      formdata: {
+        name:'',
+        password:''
+      }
+    }
+  },
+  methods:{
+    submitform(){
+
+      axios.post('192.168.68.107:8000/checklogin', this.formdata)
+      .then(res=>{
+        console.log(res);
+      })
+      .catch (err => {
+        console.log(err)
+
+      })
+    },
+
+    mounted(){
+
+    },
   }
 }
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
