@@ -1,6 +1,7 @@
 <template>
   <div class="hello">
-    Login:
+    Login:<br>
+    <button>Logga in</button>
   </div>
 </template>
 
