@@ -10,7 +10,7 @@
 import Main from '@/components/login.vue'
 
 export default {
-  name: 'Home',
+  name: 'test',
   components: {
     Main
   }
