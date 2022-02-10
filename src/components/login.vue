@@ -1,8 +1,8 @@
 <template>
   <div class="login">
-    Login!<br>
+    Logga in:<br>
     <form>
-    <input type=submit value="Logga in">
+    <input style='width:150px; height:25px;' type=submit value="Logga in">
     </form>
   </div>
 </template>
