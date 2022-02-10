@@ -36,6 +36,15 @@
   color: #42b983;
 }
 
+
+.home {
+  position: fixed;
+  top: 30;
+  left:0;
+  padding:15px;
+  width:calc(100% - 30px);
+  text-align: center;
+}
 /* <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
 */
