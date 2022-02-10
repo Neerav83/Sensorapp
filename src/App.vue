@@ -18,7 +18,7 @@
   padding: 15px;
   width:calc(100% - 30px);
   height:35px;
-  font-size:18px;
+  font-size:23px;
   color:white;
   background-color:green;
   text-align: center;
