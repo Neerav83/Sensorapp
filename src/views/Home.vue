@@ -11,7 +11,7 @@ import Main from '@/components/HelloWorld.vue'
 export default {
   name: 'Home',
   components: {
-    Main
+    Main:Helloworld
   }
 }
 </script>
