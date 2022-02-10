@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     Login:<br>
-    <button>Logga in</button>
+    <input type=submit value="Logga in">
   </div>
 </template>
 
