@@ -27,7 +27,7 @@ export default {
   methods:{
     submitform(){
 
-      axios.post('192.168.68.107:8000/checklogin', this.formdata)
+      axios.post('http://192.168.68.107:8000/checklogin', this.formdata)
       .then(res=>{
         console.log(res);
       })
