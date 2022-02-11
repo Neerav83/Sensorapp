@@ -7,7 +7,7 @@ import Vue3Storage from "vue3-storage"
 
 createApp(App).use(
     Vue3Storage,{
-        namespace:pro_, storage:StorageType.Local
+        namespace:"pro_", storage:StorageType.Local
     },
     router
     ).mount('#app')
