@@ -12,5 +12,5 @@ createApp(App).use(
 */
 const app = createApp(App);
 app.use(router)
-    .use(Vue3Storage, { namespace: "pro_", storage: StorageType.Local })
+    .use(Vue3Storage)
     .mount("#app");
