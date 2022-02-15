@@ -1,0 +1,9 @@
+{
+    "name": "SensorApp",
+    "short_name": "SensorApp",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#FFFFFF",
+    "description": "SensorApp"
+
+  }

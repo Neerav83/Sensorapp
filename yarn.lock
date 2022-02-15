@@ -1715,6 +1715,11 @@
     "serialize-javascript" "^4.0.0"
     "webpack-log" "^2.0.0"
 
+"core-js@^3.6.5":
+  "integrity" "sha512-YUdI3fFu4TF/2WykQ2xzSiTQdldLB4KVuL9WeAy5XONZYt5Cun/fpQvctoKbCgvPhmzADeesTk/j2Rdx77AcKQ=="
+  "resolved" "https://registry.npmjs.org/core-js/-/core-js-3.21.0.tgz"
+  "version" "3.21.0"
+
 "core-util-is@~1.0.0":
   "integrity" "sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ=="
   "resolved" "https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.3.tgz"
@@ -1766,6 +1771,13 @@
     "safe-buffer" "^5.0.1"
     "sha.js" "^2.4.8"
 
+"cross-env@^7.0.3":
+  "integrity" "sha512-+/HKd6EgcQCJGh2PSjZuUitQBQynKor4wrFbRg4DtAgS1aWO+gU52xpH7M9ScGgXSYmAVS9bIJ8EzuaGw0oNAw=="
+  "resolved" "https://registry.npmjs.org/cross-env/-/cross-env-7.0.3.tgz"
+  "version" "7.0.3"
+  dependencies:
+    "cross-spawn" "^7.0.1"
+
 "cross-spawn@^6.0.0":
   "integrity" "sha512-eTVLrBSt7fjbDygz805pMnstIs2VTBNkRm0qxZd+M7A5XDdxVRWO5MxGBXZhjY4cqLYLdtrGqRf8mBPmzwSpWQ=="
   "resolved" "https://registry.npmjs.org/cross-spawn/-/cross-spawn-6.0.5.tgz"
@@ -1778,6 +1790,15 @@
     "which" "^1.2.9"
 
 "cross-spawn@^7.0.0":
+  "integrity" "sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w=="
+  "resolved" "https://registry.npmjs.org/cross-spawn/-/cross-spawn-7.0.3.tgz"
+  "version" "7.0.3"
+  dependencies:
+    "path-key" "^3.1.0"
+    "shebang-command" "^2.0.0"
+    "which" "^2.0.1"
+
+"cross-spawn@^7.0.1":
   "integrity" "sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w=="
   "resolved" "https://registry.npmjs.org/cross-spawn/-/cross-spawn-7.0.3.tgz"
   "version" "7.0.3"
@@ -6637,6 +6658,11 @@
   "resolved" "https://registry.npmjs.org/vm-browserify/-/vm-browserify-1.1.2.tgz"
   "version" "1.1.2"
 
+"vue-class-component@^8.0.0-0":
+  "integrity" "sha512-w1nMzsT/UdbDAXKqhwTmSoyuJzUXKrxLE77PCFVuC6syr8acdFDAq116xgvZh9UCuV0h+rlCtxXolr3Hi3HyPQ=="
+  "resolved" "https://registry.npmjs.org/vue-class-component/-/vue-class-component-8.0.0-rc.1.tgz"
+  "version" "8.0.0-rc.1"
+
 "vue-hot-reload-api@^2.3.0":
   "integrity" "sha512-BXq3jwIagosjgNVae6tkHzzIk6a8MHFtzAdwhnV5VlvPTFxDCvIttgSiHWjdGoTJvXtmRu5HacExfdarRcFhog=="
   "resolved" "https://registry.npmjs.org/vue-hot-reload-api/-/vue-hot-reload-api-2.3.4.tgz"
@@ -6692,6 +6718,17 @@
     "@vue/runtime-dom" "3.2.30"
     "@vue/server-renderer" "3.2.30"
     "@vue/shared" "3.2.30"
+
+"vue3-storage@^0.1.11":
+  "integrity" "sha512-4pLQUMeGFduP2IaFage8Y/9AtUljKkm3z9N4ko30kTcKDwyr7JXOAsNFjYqw58SWNNLQdXqaGGAxZFVnk/JfUg=="
+  "resolved" "https://registry.npmjs.org/vue3-storage/-/vue3-storage-0.1.11.tgz"
+  "version" "0.1.11"
+  dependencies:
+    "core-js" "^3.6.5"
+    "cross-env" "^7.0.3"
+    "vue" "^3.0.0"
+    "vue-class-component" "^8.0.0-0"
+    "vue-router" "^4.0.0-0"
 
 "watchpack-chokidar2@^2.0.1":
   "integrity" "sha512-nCFfBIPKr5Sh61s4LPpy1Wtfi0HE8isJ3d2Yb5/Ppw2P2B/3eVSEBjKfN0fmHJSK14+31KwMKmcrzs2GM4P0Ww=="

@@ -1,6 +1,7 @@
 <template>
+
   <div class="loggedin">
-    <h1>Inloggad!!</h1>
+      <sensors />
   </div>
 </template>
 
@@ -8,10 +9,27 @@
 
 .loggedin {
   position: fixed;
-  top: 45px !important;
+  top: 55px !important;
   left:0;
-  padding:15px;
-  width:calc(100% - 30px);
+  width:100%;
   text-align: center;
 }
 </style>
+
+<script>
+
+
+// @ is an alias to /src
+//import loggedin from '@/components/checklogin.vue'
+import sensors from '@/components/sensors.vue'
+
+export default {
+  components: {
+ //   loggedin,
+    sensors
+  }
+}
+
+//console.log<();
+//console.log(localStorage.getItem('token'));
+</script>

@@ -1,6 +1,8 @@
 <template>
+
   <div id="nav">
-     PlantSensor   
+     PlantSensor
+
   </div>
   <router-view />
 </template>
@@ -12,6 +14,8 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  padding:0px;
+  margin:0px;
 }
 
 #nav {
@@ -51,7 +55,5 @@
   font-size:25px;
 
 }
-/* <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-*/
+
 </style>

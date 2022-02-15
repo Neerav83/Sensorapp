@@ -32,14 +32,21 @@ export default {
       axios.post('http://192.168.68.107:8000/checklogin', this.formdata)
       .then(res=>{
         if (res.data.length != 0){
-          this.$router.push('/loggedin');
-
-            
-
-        } else {
+          
+           if (res.data!="wrong cred") {
+             
+           localStorage.setItem('token', res.data);
+              if (localStorage.getItem('token')){           
+              this.$router.push('/loggedin');
+              }
+         
+        }else {
           alert("wrong username");
         }
-        //console.log(res);
+          //console.log(res);
+            
+
+        } 
 
       })
       .catch (err => {

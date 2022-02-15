@@ -1,0 +1,78 @@
+<template>
+  <div class="sensors">
+    <div class='sensorcontainer'>
+       </div>
+    </div>
+    
+</template>
+
+<script>
+import axios from 'axios'
+var sensors="test";
+
+export default {
+  name: 'sensors',
+  components: {
+    sensors:"test"
+  }
+}
+
+/*
+  name: 'getsensors',
+
+  data () {
+
+
+  var token= localStorage.getItem('token');
+
+  if (token!=""){
+
+
+      axios.post('http://192.168.68.107:8000/getsensors',{},{
+          headers: {'x-access-token': token}
+
+      })
+      .then(res=>{
+
+       // console.log(res);
+           
+     // console.log("loggedin");
+
+     // console.log(res.status);
+
+      if (res.status!=200){
+           this.$router.push('/');
+
+      }
+      })
+    
+      .catch (err => {
+                   this.$router.push('/');
+
+
+      }) 
+
+
+    
+  }
+}
+
+}
+*/
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped>
+
+.sensors{
+  background-image: url("../assets/chili-planta.jpg");
+  height:100vh;
+}
+.sensorcontainer{
+   padding:10px;
+  background-color:rgba(211,211,211,0.8);
+  height:100%;
+  overflow:hidden;
+
+}
+</style>

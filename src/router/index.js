@@ -1,5 +1,34 @@
+import { guardReactiveProps } from 'vue'
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
+import loggedin from '../views/Loggedin.vue'
+import axios from 'axios'
+
+
+const guard = function (to, from, next) {
+
+  var token= localStorage.getItem('token');
+  
+  axios.post('http://192.168.68.107:8000/checktoken',{},{
+    headers: {'x-access-token': token}
+
+})
+.then(res=>{
+  if (res.data != "Invalid Token"){
+  next();
+  }
+  else {
+    document.location="/";
+
+  }
+})
+
+.catch (err => {    
+    document.location="/";
+}) 
+
+
+}
 
 const routes = [
   {
@@ -10,12 +39,12 @@ const routes = [
   {
     path: '/loggedin',
     name: 'Loggedin',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: function () {
-      return import(/* webpackChunkName: "loggedin" */ '../views/Loggedin.vue')
-    }
+     component: loggedin,
+
+     beforeEnter: (to, from , next) => {
+     guard(to, from, next);
+     }
+
   }
 ]
 
