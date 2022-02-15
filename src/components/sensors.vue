@@ -10,7 +10,8 @@
           <td>{{ item.areaname }}</td>
           <td>{{ item.sensorname }}</td>
             <td>{{ item.status }}</td>
-          <td>{{ item.time }}</td>
+          <td>{{ new Date(item.time).toLocaleString() }}</td>
+          
        
         </tr>
         </tbody>
