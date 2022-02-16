@@ -28,8 +28,8 @@ export default {
   },
   methods:{
     submitform(){
-
-      axios.post('http://192.168.68.107:8000/checklogin', this.formdata)
+      // await axios.post('http://98.128.191.251:5000/getsensors',{},{    
+      axios.post('http://98.128.191.251:8000/checklogin', this.formdata)
       .then(res=>{
         if (res.data.length != 0){
           

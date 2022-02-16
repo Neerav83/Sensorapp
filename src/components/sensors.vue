@@ -39,8 +39,9 @@ export default {
     
      async Getsensordata(){
      var token= localStorage.getItem('token');
-
-      await axios.post('http://192.168.68.107:8000/getsensors',{},{
+      await axios.post('http://98.128.191.251:5000/getsensors',{},{
+    
+    //  await axios.post('http://192.168.68.107:8000/getsensors',{},{
           headers: {'x-access-token': token}
       })
       .then(res=>{
