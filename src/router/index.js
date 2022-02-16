@@ -8,7 +8,7 @@ import axios from 'axios'
 const guard = function (to, from, next) {
 
   var token= localStorage.getItem('token');
-  axios.post('http://98.128.191.251:8000/checktoken',{},{
+   axios.post('http://98.128.191.251:8000/checktoken',{},{
   
   
   //axios.post('http://192.168.68.107:8000/checktoken',{},{
